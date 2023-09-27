@@ -23,3 +23,10 @@ foreach ($vmName in $vmNames) {
 }
 
 Write-Output "Backup configurado para las máquinas virtuales."
+
+
+#Reemplaza <NombreDelVault>, <NombreDelGrupoDeRecursos>, <NombreDeLaPolítica>, y <ID_de_tu_suscripción> con los valores correspondientes a tu entorno.
+#Asegúrate de tener instalado y configurado Azure PowerShell en tu máquina local o utiliza Azure Cloud Shell.
+#Este script es un ejemplo básico y puede necesitar ajustes para adaptarse a tu entorno y requisitos específicos, como la configuración de políticas de backup si aún no existen.
+#Antes de ejecutar scripts, especialmente aquellos que modifican recursos, asegúrate de entender completamente lo que el script hace y prueba en un entorno seguro si es posible.
+#Este script te ayudará a configurar backups diarios para tus máquinas virtuales en Azure después de un failover. Si necesitas más detalles o tienes requisitos adicionales, házmelo saber
